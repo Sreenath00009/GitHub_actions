@@ -1,7 +1,10 @@
 name: learning_first_github_actions
 run-name: ${{ github.actor }} is learning Github Actions
 
-on: [push]
+on: 
+  push: 
+    branches: 
+      - main
 jobs:
   build: 
     runs-on: ubuntu-latest
