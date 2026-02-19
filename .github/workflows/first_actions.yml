@@ -1,9 +1,9 @@
-name: Github_Actions-1
+name: Sreenath
 
 on: [push]
 
 jobs:
-  hello:
+  Job-1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -11,7 +11,7 @@ jobs:
         run: echo "hello-Sreenath"
         shell: bash
         
-  Goodbye:
+  Job-2:
     runs-on: ubuntu-latest
     steps:
       - name: Goodbye world
